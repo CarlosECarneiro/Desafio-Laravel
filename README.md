@@ -33,7 +33,4 @@ php artisan migrate
 ```
 php artisan serve
 ```
-- Acesse o sistema pelo navegador. (Endereço padrão: http://127.0.0.1:8000).
-
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- Acesse o sistema pelo navegador. (Endereço padrão: http://127.0.0.1:8000)

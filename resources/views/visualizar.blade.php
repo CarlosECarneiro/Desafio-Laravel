@@ -1,4 +1,4 @@
-<x-layout>
+<x-layout :title="'Visualizar'">
     <div class="container">
         <div class="row justify-content-center my-5">
             <div class="card col-lg-9">
@@ -13,7 +13,7 @@
                                 $imagem = "default-avatar.jpg"
                             @endphp
                         @endif
-                        <img src="{{url('/clientes',$imagem)}}" class="img-rounder" style="width:200px; height:200px">
+                        <img src="{{url('/clientes',$imagem)}}" class="rounded" style="width:200px; height:200px">
                     </div>
                     <div class="col-md-8">
                         <p><strong>Nome: </strong>{{ $cliente->nome }}</p>

@@ -1,4 +1,4 @@
-<x-layout>
+<x-layout :title="'Início'">
 
     <div class="container">
         <div class="row justify-content-center my-3">

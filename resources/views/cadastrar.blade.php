@@ -1,4 +1,4 @@
-<x-form>
+<x-form :title="'Cadastro'">
 
     <form action="/cadastrar-cliente" method="post" enctype="multipart/form-data" id="clienteForm">
         @csrf

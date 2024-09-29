@@ -1,4 +1,4 @@
-<x-form>
+<x-form :title="'Atualizar'">
 
     <form action="/atualizar-cliente/{{$cliente->id}}" method="post" enctype="multipart/form-data" id="clienteForm">
         @csrf
